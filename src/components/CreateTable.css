@@ -1,0 +1,55 @@
+.table {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.table-form input {
+    border: 0.5px solid #999;
+    border-radius: 20px;
+    margin: 10px;
+    background: #eeeeee;
+    border-radius: 8px;
+    width: 300px;
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.table-form input::placeholder {
+    font-family: "Poppins", sans-serif;
+}
+
+.table-form input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.table-form input[type="text"] {
+    font-family: "Poppins", sans-serif;
+}
+
+.table-form input[type="password"] {
+    font-family: "Poppins", sans-serif;
+}
+
+.table-form button {
+    padding: 3px 10px 3px 10px;
+    margin: 2px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: #f0f0f0;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(45, 93, 197);
+}

@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    border-bottom: 0.5px solid #999;
+}
+
+.header-middle-side ul li {
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+}
+
+.header-left-side {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-left-side button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.navlink-header {
+    text-decoration: none;
+    color: #000;
+}

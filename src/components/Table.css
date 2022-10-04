@@ -1,0 +1,74 @@
+.table {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.books-table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.books-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    align-items: center;
+}
+
+.books-table th:nth-child(1) {
+    width: 10%;
+}
+
+.books-table th:nth-child(4) {
+    width: 20%;
+}
+
+.books-table td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.books-table tr:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.btn {
+    padding: 3px 10px 3px 10px;
+    margin: 2px;
+    border: 1px solid #999;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    width: auto;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.btn-editar {
+    background-color: rgb(45, 93, 197);
+}
+
+.btn-excluir {
+    background-color: rgb(165, 33, 33);
+}
+
+.talbe-no-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table p {
+    font-size: 16px;
+}
+
+.navlink-table {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    margin-left: 5px;
+}
