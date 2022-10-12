@@ -10,7 +10,7 @@
 
 firebase (@8.3.2) & react-router-dom.
 
-### Paths:
+### Paths
 
 -   /home (both login and main page)
 -   /home/add (add book)
