@@ -1,21 +1,29 @@
 # CRUD - ReactJS & Firebase
 
-### Fundamentals
+## Fundamentals
 
 -   sign in and sign up using firebase authenticator;
 -   crud using firestore;
 -   react js to render api.
 
-### Libraries
+## Libraries
 
 firebase (@8.3.2) & react-router-dom.
 
-### Paths
+## Paths
 
 -   /home (both login and main page)
 -   /home/add (add book)
 -   /register (register)
 
-### Start server
+## Start server
 
-Set up your firebase config ("./src/config/firebaseConfig.js") and execute npm start.
+Set up your firebase config ("./src/config/firebaseConfig.js") and execute:
+
+```
+  npm install
+```
+
+```bash
+  npm run start
+```
